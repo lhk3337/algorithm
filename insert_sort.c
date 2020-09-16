@@ -9,7 +9,7 @@ int main(void)
     }
     for (i = 0; i < 9; i++)
     {
-        j = i;
+        j = i; // i값을 j값로 대입
         while (j >= 0 && array[j] > array[j + 1])
         {
             temp = array[j];
